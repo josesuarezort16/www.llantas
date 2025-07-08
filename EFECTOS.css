@@ -1,0 +1,59 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.contactos figure img{
+    margin: 7px;
+    font-size: 15px;
+    width: 30dvh;
+    height: 75px;
+}
+.contactos{
+    background-color: rgb(187, 5, 5);
+    position: fixed;
+}
+
+.impresion1{
+    margin: 130px;
+    font-size: 20px;
+    background-color: rgb(166, 167, 154);
+    justify-items: center;
+}
+
+.impresion1{
+    position: fixed;
+}
+.impresion2{
+    margin: 310px;
+    font-size: 20px;
+    background-color: rgb(243, 21, 5);
+    justify-items: left;
+
+}
+
+.impresion2{
+    left:  5%;
+    height: 25%;
+    position: fixed;
+}
+.container{
+    width: 100%;
+    height: 200vh;
+
+}
+.container figure{
+    width: 1400px;
+    height: 650px;
+    transition: all 500ms ease;
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px rgba(red, green, blue, alpha);
+
+}
+.container figure img{
+    width: 100%;
+    height:100%;
+    transition: all 350ms ease;
+}
+.container figure img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
